@@ -10,9 +10,13 @@
         <module name="useful-codes" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafa-hello-message" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafa-hello-message" options="-parameters" />
       <module name="useful-codes" options="-parameters" />
     </option>
   </component>
